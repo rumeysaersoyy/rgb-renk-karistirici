@@ -1,0 +1,15 @@
+# Arduino derleme çıktıları
+build/
+*.hex
+*.elf
+*.bin
+
+# IDE / işletim sistemi dosyaları
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Gizli bilgiler (ileride API anahtarı eklenirse)
+.env
+secrets.h
